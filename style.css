@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(30, 38%, 92%); 
+}
+
+.container{
+    height: 25rem;
+        width: 40rem;
+    margin: 15rem auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+img{
+    height: 25rem;
+    border-radius: 20px 0 0 20px;
+}
+
+.title{
+    margin: 20px;
+}
+
+.Perfume-title{
+    font-family: 'Montserrat';
+    letter-spacing: 4px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.title-parfum{
+    font-family: 'Fraunces';
+    margin-bottom: 20px;
+}
+
+.content-perfum{
+    font-family: 'Montserrat';
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.price-perfum{
+    font-family: 'Fraunces'; 
+    margin-bottom: 15px;
+}
+
+.perfume-prices{
+    display: flex;
+}
+
+.price-past{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: gray;
+    text-decoration: line-through;
+}
+
+
+.button-perfum{
+    padding: 15px 60px ;
+    background-color: #8FBC8F;
+    border: none;
+    display: flex;
+    border-radius: 4px;
+}
+
+.button-perfum p{
+    font-weight: bold;
+}
+
+.shopping-card{
+    height: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+@media (max-width: 658px ) {
+    .container{
+        display: block;
+        width: 25rem;
+        height: 65rem;
+        margin: 2rem auto;
+    }
+
+    img{
+        height: 37.5rem;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .button-perfum{
+        margin-top: 30px;
+    }
+}
